@@ -1,0 +1,65 @@
+/* 
+ * Author: Raghunath Gurjar and wpcdeveloper @ wordpress.org
+ * */
+#wssbs-tab-menu {width:100%; padding:1%;background: none repeat scroll 0 0 #ccc;}#wssbs-tab-menu a {background: none repeat scroll 0 0 #DCA808; border: 0 none;color: #FFFFFF;display: inline-block;font-size: 16px;font-weight: bold;padding: 12px 20px;opacity:0.5;}#wssbs-tab-menu a:hover{cursor:pointer;background: none repeat scroll 0 0 #DCA808;opacity:1;}#wssbs-tab-menu a.active{ background: none repeat scroll 0 0 #DCA808;opacity:1;}#wssbs-sidebar-admin-form .submit-btn {width: 100%; display: inline-block; padding-top: 10px; margin-top: 10px; border-top: 1px dashed #DCA808;}#wssbs-sidebar-admin-form .submit-btn .button-primary{cursor:pointer;height:35px;}#wssbs-sidebar-admin-form .submit-btn .extrabtn{right:20%;position: fixed;}#wssbs-sidebar-admin-form .wssbs-setting p label {min-width:75px;display:inline-block;}#div-wssbs-support img {width:10%; height:auto;}#wssbs-sidebar-admin-form ul {list-style:inside}#wssbs-sidebar-admin-form .contact-author{    background: none repeat scroll 0 0 #305891;border: 0 none;color: #FFFFFF;cursor:pointer;display: inline-block;font-size: 12px;   font-weight: bold;padding: 2px 5px;text-decoration: none;}.hide-for-admin{display:none !important;}
+h3 {
+    margin-top: 40px;
+}
+form#wssbs-sidebar-admin-form {
+	background:#fff;
+}
+#wssbs-tab-menu {
+    width: auto !important;
+    background: #fff;
+    border-bottom: 2px solid #333;
+}
+#wssbs-tab-menu a {
+    background: #fff !important;
+    color: #333 !important;
+    border-right: 2px solid #333;
+}
+div#wssbs-tab-menu {
+    padding: 0px;
+    margin: 0;
+}
+#wssbs-tab-menu a {
+    background: #fff !important;
+    color: #333 !important;
+    border-right: 2px solid #333;
+    border-top: 2px solid #333;
+    border-left: 2px solid #333;
+}
+#wssbs-sidebar-admin-form .submit-btn {
+	border-top:0px solid #fff;
+}
+.wssbs-setting {
+    padding-left: 20px;
+}
+table {
+    padding-top: 30px;
+}
+hr {
+    margin-top: 30px;
+}
+h4 {
+	margin-bottom:0px;
+}
+span.submit-btn {
+    padding: 20px;
+}
+
+input[type=text], input[type=textbox] {
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px #333;
+        border: 1px solid #ccc;
+}
+input[type=button] {
+    padding: 10px 15px;
+    display: inline-block;
+    background: #0dad79;
+    border: 0px solid #333;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+}

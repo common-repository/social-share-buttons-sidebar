@@ -1,0 +1,66 @@
+/* Custom share Buttons With Floating Sidebar (C)
+ * Author: Raghunath gurjar and wpcdeveloper @ wordpress.org
+ * */
+.sbutton img {opacity:0.8;}
+.sbutton img:hover{opacity:1;}
+.wssbs-social-widget {position: fixed;width: 50px;z-index: 99999;}
+.wssbs-social-widget .wssbs-sbutton {background: none;float: right;height: 42px;margin: 0;padding: 0;position: relative;width: 50px;}
+.wssbs-sbutton img{padding:5px;}
+.wssbs-sbutton a {text-align:center; display:block;  width:45px; height:42px; border-bottom:1px solid rgba(255, 255, 255, 0.1)}
+.wssbs-tw a{background:none repeat scroll 0 0 #2CA8D2; }
+.wssbs-fb a{background:none repeat scroll 0 0 #305891;}
+.wssbs-ml a{background:none repeat scroll 0 0 #738A8D;}
+.wssbs-gp a{background:none repeat scroll 0 0 #DD4C39; }
+.wssbs-li a{background:none repeat scroll 0 0 #007BB6;}
+.wssbs-pin a{background:none repeat scroll 0 0 #ca2027;}
+.wssbs-yt a{background:none repeat scroll 0 0 #d42026;}
+.wssbs-re a{background:none repeat scroll 0 0 #93c3e6;}
+.wssbs-st a{background:none repeat scroll 0 0 #EB4924;}
+/* Right Position */
+#wssbs-right #wssbs-re,#wssbs-right  #wssbs-st,#wssbs-right #wssbs-yt,#wssbs-right  #wssbs-ml,#wssbs-right #wssbs-pin,#wssbs-right #wssbs-gp,#wssbs-right #wssbs-tw,#wssbs-right #wssbs-fb,#wssbs-right #wssbs-li a {position: absolute; right: 0;}
+#wssbs-right a#wssbs-hide {padding-right:33px;}
+#wssbs-right a#wssbs-show {float:right;}
+/* Bottom Position */
+#wssbs-bottom #re a, #wssbs-bottom #st a ,#wssbs-bottom #yt a , #wssbs-bottom #ml a,#wssbs-bottom #pin a,#wssbs-bottom #gp a ,#wssbs-bottom #tw a,#wssbs-bottom #fb a ,#wssbs-bottom #fb a {
+bottom: 0;  height: 45px;  
+}
+#wssbs-bottom {width:100%;margin:0 auto; text-align:center; bottom: 0 !important; }
+#wssbs-bottom .wssbs-hide{display:none !important;}
+#wssbs-bottom .wssbs-sbutton{background: none repeat scroll 0 0 rgba(0, 0, 0, 0);display: inline-block;float: none;   margin: 0 auto;position: relative;width: 45px;}
+#wssbs-bottom .wssbs-sbutton img {width: 31px;height: 30px;opacity: 0.8;}
+#wssbs-bottom .wssbs-sbutton img:hover{opacity:1;}
+/* Custom Share Buttons*/ 
+#socialButtonOnPage {width:100%;display:inline-block;float:left; }
+#socialButtonOnPage .wssbs-sbutton-post img {width:31px; height:30px;opacity:1; padding-top:1%; margin:0 auto; text-align:center;border:none !important;}
+#socialButtonOnPage .wssbs-sbutton-post img:hover{opacity:1;}
+#socialButtonOnPage .sharethis-arrow span:hover{cursor:pointer;}
+#socialButtonOnPage .sharethis-arrow span{  color: #FFFFFF;display: inline-block;font-size: 16px;font-style: italic;   font-weight: bold;}
+/* Left Position */
+.leftSocialButtonOnPage .wssbs-sbutton-post {float:left; padding:5px 1px;}
+.leftSocialButtonOnPage .sharethis-arrow{float:left;padding:5px 10px 5px 1px;background:url("../images/sharethis-l.png") no-repeat scroll 0 0 #ffffff;height: 29px;padding: 0 10px 0 0;margin-top:5px;width: 120px; }
+.leftSocialButtonOnPage .sharethis-arrow span{ padding-left: 12px;}
+/* Right Position */
+.rightSocialButtonOnPage .wssbs-sbutton-post {float:right; padding:5px 1px;}
+.rightSocialButtonOnPage .sharethis-arrow{float:right;padding:5px 1px 5px 10px;background:url("../images/sharethis-r.png") no-repeat scroll 0 0 #ffffff;height: 29px;padding: 0 0 0 10px;margin-top:5px;width: 120px; margin-left:5px;}
+.rightSocialButtonOnPage .sharethis-arrow span{padding-left: 12px;}
+#socialButtonOnPage .wssbs-sbutton-post a{display:block;width:50px; height:auto;text-align: center;border:none !important;}
+#socialButtonOnPage .wssbs-sbutton-post a:hover{display:block;width:50px; height:auto;text-align: center;border:none !important;}
+
+/** Minify Image CSS */
+.wssbs-sbutton a i ,.wssbs-sbutton-post a i {
+    display: inline-block;
+    height: inherit;
+    position: relative;
+    width: 32px;
+    background-image: url("../images/minify-social.png");
+
+}
+i.wssbs_facebook {background-position: 68% 4%;}
+i.wssbs_twitter {background-position: 14% 4%;}
+i.wssbs_plus {background-position: 80% 4%;}
+i.wssbs_linkedin {background-position: 92% 4%;}
+i.wssbs_pinterest{background-position: 14% 20%;}
+i.wssbs_youtube {background-position: 32% 4%;}
+i.wssbs_reddit {background-position: 26% 20%;}
+i.wssbs_stumbleupon {background-position: 2% 4%;}
+i.wssbs_mail {background-position: 8% 20%;}
